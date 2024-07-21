@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3000/user-details/styles.css">
+    <title>MyFood - user information</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">MyFood</div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="http://localhost:3000/category_list">Recipes</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="user-inf-field">
+    <h1 id="user-id">User id</h1>
+
+    <div class="container">
+        <h4 id="user-label">First Name: </h4>
+        <p id="user-firstname-txt">Aleksandr</p>
+        <input type="text" id="input-field-firstname" value="Aleksandr">
+    </div>
+
+    <div class="container">
+        <h4 id="user-label">Last Name: </h4>
+        <p id="user-lastname-txt">Zhadobin</p>
+        <input type="text" id="input-field-lastname" value="Zhadobin">
+    </div>
+
+    <div class="container">
+        <h4 id="user-label">Email: </h4>
+        <p id="user-email-txt">zhadobin.aleksander@gmail.com</p>
+    </div>
+
+    <div class="container">
+        <h4 id="user-label">Password: </h4>
+        <p id="user-password-txt">*********</p>
+        <input type="text" id="input-field-password" value="********">
+    </div>
+    <button id="user-edit-btn" onclick="changeField(1)">Edit</button>
+    <div class="container">
+        <button id="user-submit-btn" onclick="putUserData()">Submit</button>
+        <button id="user-cancel-btn" onclick="changeField(0)">Cancel</button>
+    </div>
+</div>
+
+<script src="http://localhost:3000/user-details/script.js"></script>
+
+</body>
+</html>

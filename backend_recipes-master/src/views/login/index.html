@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3000/login/styles.css">
+    <title>User Login</title>
+</head>
+<body>
+<div class="header">
+    Login
+</div>
+<div class="container">
+    <form id="loginForm" onsubmit="submitForm(event)">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <input type="submit" value="Login">
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+    </form>
+</div>
+
+<script src="http://localhost:3000/login/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-inf-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid lightgray;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#user-id {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    text-align: left;
+}
+
+#user-label{
+    margin-right: 10px;
+}
+
+#user-firstname-txt{
+    margin-right: 10px;
+}
+#user-lastname-txt{
+    margin-right: 10px;
+}
+#user-password-txt{
+    margin-right: 10px;
+}
+
+#user-edit-btn {
+    width: 50px;
+    height: 20px;
+}
+
+#input-field-firstname {
+    width: 100px;
+    display: none;
+}
+#input-field-lastname {
+    width: 100px;
+    display: none;
+}
+#input-field-password {
+    width: 100px;
+    display: none;
+}
+
+#user-submit-btn {
+    background-color: #2eff00;
+    display: none;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+}
+#user-cancel-btn {
+    background-color: #ff0000;
+    display: none;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+}
